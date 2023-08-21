@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -64,10 +65,10 @@
 		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Estudos</a>
 		<a id="loja" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Loja</a>
 		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-dumbbell"></i> Treino</a>
-                <a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Calendario</a>
-	        <a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projetos</a>
+        <a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Calendario</a>
+	    <a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projetos</a>
 		<a id="knowledge" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Ideis</a>
-		<a id="topics" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Topics</a>
+		
 		
 		
 		
@@ -75,9 +76,10 @@
 
 
 	</nav>
-
+<!------lINK DA BARRA DE navegação--------------------------------->
 
 	<script>
+
 
 		let direction = "horizontal";
 		if (direction === "vertical") {
@@ -105,10 +107,8 @@
 				window.open("https://www.notion.so/37aa1644fc4b48c2baeab575f05c7472?v=8fc64faeee184a7faab2d0055bab3f8b", '_blank').focus();
 				
 			else if (id == "knowledge")
-				window.open("https://example.com", '_blank').focus();
-				
-			else if (id == "topics")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://example.com", '_blank').focus();				
+		
 				
 			else if (id == "notes")
 				window.open("https://www.notion.so/Painel-do-estudante-3734da611a0641419d752ef42f678a6c", '_blank').focus();
